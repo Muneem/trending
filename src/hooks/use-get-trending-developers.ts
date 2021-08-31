@@ -1,3 +1,4 @@
+// Custom hook to get all trending developers
 import { HookReturnType, ICallbackParams, useApiHookWrapper } from '@hooks/use-api-hook-wrapper';
 import axios from 'axios';
 import { DevelopersData } from '../utils/types';

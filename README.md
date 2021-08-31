@@ -25,6 +25,7 @@ Created by `Create React App` with Typescript
 /src
   ├── components
   ├── hooks              # hooks to call API tp get data
+       ├── use-api-hook-wrapper.ts     # custom hook to handle all API requests/
   ├── screens             # screen UI to show data on screen
   ├── types
   ├── util               # Utilites for hold helper functions 

@@ -17,7 +17,9 @@ export function TrendingRepositories() {
       overflow={'hidden'}>
       <HeaderComponent />
       <Box overflow={'scroll'} h={'650'}>
+        {/* Show progress bar  */}
         {isLoading && <Progress size="xs" isIndeterminate />}
+        {/*  Show all repository items */}
         {hookData?.map((repo, index) => {
           return <RepositoryItem key={repo.rank} repo={repo} />;
         })}

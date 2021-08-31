@@ -1,3 +1,4 @@
+//Custom Hook to get all trending repositories
 import { HookReturnType, ICallbackParams, useApiHookWrapper } from '@hooks/use-api-hook-wrapper';
 import axios from 'axios';
 import { RepositoriesData } from '../utils/types';
